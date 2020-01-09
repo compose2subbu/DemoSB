@@ -48,5 +48,9 @@ public class ArrayListController {
 		return dao.deleteByValue(n);
 	}
 
-
+	@PostMapping("updatebyobj")
+	public boolean updateEmpbyObj(@RequestBody Employee e)
+	{
+		return dao.updateByValue(e);
+	}
 }

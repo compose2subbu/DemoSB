@@ -61,4 +61,21 @@ public class EmployeeServices {
 		return false;
 	}
 
+	public boolean updateByValue(Employee e)
+	{
+		Employee IterationEmp;
+		JSONParser parser = new JSONParser();
+		System.out.println(elist);
+		Iterator Itr = elist.iterator();
+		int currentId = 0;
+		while(Itr.hasNext())
+		{
+			IterationEmp = (Employee) Itr.next();
+			if(IterationEmp.id == e.id) {
+				elist.remove(IterationEmp);
+				return elist.add(e);
+			}
+		}
+		return false;
+	}
 }
