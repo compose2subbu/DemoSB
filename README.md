@@ -1,4 +1,4 @@
 # DemoSB
 Spring Boot Demo Project
 
-Swagger URL - http://localhost:8082/swagger-ui.html
+Swagger URL - https://subbu-demospringbootapp.herokuapp.com/swagger-ui.html
