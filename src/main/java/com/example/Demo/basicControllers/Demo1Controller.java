@@ -16,7 +16,7 @@ public class Demo1Controller {
 	@GetMapping("")
 	public String welcome()
 	{
-		return "Welcome to Spring Boot Demo Application. Goto http://localhost:8082/swagger-ui.html for swagger";
+		return "Welcome to Spring Boot Demo Application. Goto https://subbu-demospringbootapp.herokuapp.com/swagger-ui.html for swagger";
 	}
 
 }
